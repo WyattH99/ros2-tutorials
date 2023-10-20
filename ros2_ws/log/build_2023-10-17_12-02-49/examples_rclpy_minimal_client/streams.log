@@ -1,0 +1,46 @@
+[3.101s] Invoking command in '/home/wyatt/ros2_ws/build/examples_rclpy_minimal_client': PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build
+[3.368s] running develop
+[3.522s] Removing /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples-rclpy-minimal-client.egg-link (link to .)
+[3.552s] Invoked command in '/home/wyatt/ros2_ws/build/examples_rclpy_minimal_client' returned '0': PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build
+[3.554s] Invoking command in '/home/wyatt/ros2_ws/src/examples/rclpy/services/minimal_client': PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build install --record /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed
+[3.822s] running egg_info
+[3.823s] writing ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO
+[3.823s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[3.823s] writing entry points to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt
+[3.823s] writing requirements to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt
+[3.823s] writing top-level names to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt
+[3.826s] reading manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[3.827s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[3.827s] running build
+[3.827s] running build_py
+[3.828s] creating /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build
+[3.828s] creating /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build/lib
+[3.828s] creating /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[3.828s] copying examples_rclpy_minimal_client/client_async.py -> /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[3.828s] copying examples_rclpy_minimal_client/client.py -> /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[3.828s] copying examples_rclpy_minimal_client/client_async_callback.py -> /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[3.828s] copying examples_rclpy_minimal_client/__init__.py -> /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[3.828s] copying examples_rclpy_minimal_client/client_async_member_function.py -> /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[3.829s] running install
+[3.829s] running install_lib
+[3.829s] creating /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[3.830s] copying /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async.py -> /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[3.830s] copying /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client.py -> /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[3.830s] copying /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_callback.py -> /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[3.830s] copying /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/__init__.py -> /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[3.830s] copying /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_member_function.py -> /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[3.831s] byte-compiling /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async.py to client_async.cpython-310.pyc
+[3.831s] byte-compiling /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client.py to client.cpython-310.pyc
+[3.831s] byte-compiling /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async_callback.py to client_async_callback.cpython-310.pyc
+[3.832s] byte-compiling /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/__init__.py to __init__.cpython-310.pyc
+[3.832s] byte-compiling /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async_member_function.py to client_async_member_function.cpython-310.pyc
+[3.833s] running install_data
+[3.833s] running install_egg_info
+[3.836s] Copying ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client-0.15.1-py3.10.egg-info
+[3.838s] running install_scripts
+[3.863s] Installing client script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.863s] Installing client_async script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.863s] Installing client_async_callback script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.863s] Installing client_async_member_function script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.863s] writing list of installed files to '/home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/install.log'
+[3.976s] Invoked command in '/home/wyatt/ros2_ws/src/examples/rclpy/services/minimal_client' returned '0': PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/build install --record /home/wyatt/ros2_ws/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed

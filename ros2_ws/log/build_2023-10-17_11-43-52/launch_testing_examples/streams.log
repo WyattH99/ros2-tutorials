@@ -1,0 +1,23 @@
+[2.160s] Invoking command in '/home/wyatt/ros2_ws/build/launch_testing_examples': PYTHONPATH=/home/wyatt/ros2_ws/build/launch_testing_examples/prefix_override:/home/wyatt/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wyatt/ros2_ws/build/launch_testing_examples/build --no-deps install_data
+[2.535s] running develop
+[2.740s] running egg_info
+[2.740s] creating launch_testing_examples.egg-info
+[2.740s] writing launch_testing_examples.egg-info/PKG-INFO
+[2.740s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[2.741s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[2.741s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[2.741s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[2.741s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.743s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.744s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.746s] running build_ext
+[2.746s] Creating /home/wyatt/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[2.747s] 
+[2.747s] Installed /home/wyatt/ros2_ws/build/launch_testing_examples
+[2.747s] running install_data
+[2.747s] creating /home/wyatt/ros2_ws/install/launch_testing_examples/share/ament_index
+[2.747s] creating /home/wyatt/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index
+[2.747s] creating /home/wyatt/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[2.747s] copying resource/launch_testing_examples -> /home/wyatt/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[2.747s] copying package.xml -> /home/wyatt/ros2_ws/install/launch_testing_examples/share/launch_testing_examples
+[2.785s] Invoked command in '/home/wyatt/ros2_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/wyatt/ros2_ws/build/launch_testing_examples/prefix_override:/home/wyatt/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wyatt/ros2_ws/build/launch_testing_examples/build --no-deps install_data

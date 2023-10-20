@@ -1,0 +1,37 @@
+[3.592s] Invoking command in '/home/wyatt/ros2_ws/src/examples/rclpy/guard_conditions': PYTHONPATH=/home/wyatt/ros2_ws/src/build/examples_rclpy_guard_conditions/prefix_override:/home/wyatt/ros2_ws/src/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/examples_rclpy_guard_conditions build --build-base /home/wyatt/ros2_ws/src/build/examples_rclpy_guard_conditions/build install --record /home/wyatt/ros2_ws/src/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed
+[3.989s] running egg_info
+[3.991s] creating ../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info
+[3.991s] writing ../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[3.992s] writing dependency_links to ../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[3.992s] writing entry points to ../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[3.992s] writing requirements to ../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/requires.txt
+[3.993s] writing top-level names to ../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/top_level.txt
+[3.993s] writing manifest file '../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[3.996s] reading manifest file '../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[3.998s] writing manifest file '../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[3.998s] running build
+[3.998s] running build_py
+[3.999s] creating /home/wyatt/ros2_ws/src/build/examples_rclpy_guard_conditions/build
+[3.999s] creating /home/wyatt/ros2_ws/src/build/examples_rclpy_guard_conditions/build/lib
+[4.000s] creating /home/wyatt/ros2_ws/src/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[4.000s] copying examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/wyatt/ros2_ws/src/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[4.001s] copying examples_rclpy_guard_conditions/__init__.py -> /home/wyatt/ros2_ws/src/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[4.002s] running install
+[4.003s] running install_lib
+[4.004s] creating /home/wyatt/ros2_ws/src/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[4.004s] copying /home/wyatt/ros2_ws/src/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/wyatt/ros2_ws/src/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[4.004s] copying /home/wyatt/ros2_ws/src/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/__init__.py -> /home/wyatt/ros2_ws/src/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[4.005s] byte-compiling /home/wyatt/ros2_ws/src/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/trigger_guard_condition.py to trigger_guard_condition.cpython-310.pyc
+[4.006s] byte-compiling /home/wyatt/ros2_ws/src/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/__init__.py to __init__.cpython-310.pyc
+[4.006s] running install_data
+[4.007s] creating /home/wyatt/ros2_ws/src/install/examples_rclpy_guard_conditions/share/ament_index
+[4.007s] creating /home/wyatt/ros2_ws/src/install/examples_rclpy_guard_conditions/share/ament_index/resource_index
+[4.007s] creating /home/wyatt/ros2_ws/src/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[4.007s] copying resource/examples_rclpy_guard_conditions -> /home/wyatt/ros2_ws/src/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[4.007s] copying package.xml -> /home/wyatt/ros2_ws/src/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[4.008s] running install_egg_info
+[4.011s] Copying ../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info to /home/wyatt/ros2_ws/src/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.1-py3.10.egg-info
+[4.012s] running install_scripts
+[4.041s] Installing trigger_guard_condition script to /home/wyatt/ros2_ws/src/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[4.042s] writing list of installed files to '/home/wyatt/ros2_ws/src/build/examples_rclpy_guard_conditions/install.log'
+[4.399s] Invoked command in '/home/wyatt/ros2_ws/src/examples/rclpy/guard_conditions' returned '0': PYTHONPATH=/home/wyatt/ros2_ws/src/build/examples_rclpy_guard_conditions/prefix_override:/home/wyatt/ros2_ws/src/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/examples_rclpy_guard_conditions build --build-base /home/wyatt/ros2_ws/src/build/examples_rclpy_guard_conditions/build install --record /home/wyatt/ros2_ws/src/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed

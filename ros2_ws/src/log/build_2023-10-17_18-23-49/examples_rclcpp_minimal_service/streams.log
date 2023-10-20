@@ -1,0 +1,71 @@
+[0.309s] Invoking command in '/home/wyatt/ros2_ws/src/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/wyatt/ros2_ws/src/examples/rclcpp/services/minimal_service -DCMAKE_INSTALL_PREFIX=/home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service
+[0.381s] -- The C compiler identification is GNU 11.4.0
+[0.468s] -- The CXX compiler identification is GNU 11.4.0
+[0.480s] -- Detecting C compiler ABI info
+[0.587s] -- Detecting C compiler ABI info - done
+[0.599s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.599s] -- Detecting C compile features
+[0.600s] -- Detecting C compile features - done
+[0.605s] -- Detecting CXX compiler ABI info
+[0.742s] -- Detecting CXX compiler ABI info - done
+[0.760s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.760s] -- Detecting CXX compile features
+[0.761s] -- Detecting CXX compile features - done
+[0.768s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.058s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.237s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.325s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.340s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.360s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.391s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.736s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.858s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.866s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.056s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.106s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.177s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.198s] -- Looking for pthread.h
+[2.296s] -- Looking for pthread.h - found
+[2.297s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.436s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.438s] -- Found Threads: TRUE  
+[2.829s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.078s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.080s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.081s] -- Configured cppcheck include dirs: 
+[3.081s] -- Configured cppcheck exclude dirs and/or files: 
+[3.083s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.083s] -- Configured cpplint exclude dirs and/or files: 
+[3.086s] -- Added test 'lint_cmake' to check CMake code style
+[3.088s] -- Added test 'uncrustify' to check C / C++ code style
+[3.088s] -- Configured uncrustify additional arguments: 
+[3.090s] -- Added test 'xmllint' to check XML markup files
+[3.095s] -- Configuring done
+[3.110s] -- Generating done
+[3.113s] -- Build files have been written to: /home/wyatt/ros2_ws/src/build/examples_rclcpp_minimal_service
+[3.162s] Invoked command in '/home/wyatt/ros2_ws/src/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/wyatt/ros2_ws/src/examples/rclcpp/services/minimal_service -DCMAKE_INSTALL_PREFIX=/home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service
+[3.163s] Invoking command in '/home/wyatt/ros2_ws/src/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/wyatt/ros2_ws/src/build/examples_rclcpp_minimal_service -- -j12 -l12
+[97.947s] [ 50%] [32mBuilding CXX object CMakeFiles/service_main.dir/main.cpp.o[0m
+[97.948s] [100%] [32m[1mLinking CXX executable service_main[0m
+[97.948s] [100%] Built target service_main
+[97.985s] Invoked command in '/home/wyatt/ros2_ws/src/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/wyatt/ros2_ws/src/build/examples_rclcpp_minimal_service -- -j12 -l12
+[98.353s] Invoking command in '/home/wyatt/ros2_ws/src/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/wyatt/ros2_ws/src/build/examples_rclcpp_minimal_service
+[99.985s] -- Install configuration: ""
+[99.985s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[99.985s] -- Set runtime path of "/home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main" to ""
+[99.985s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[99.985s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[99.985s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[99.985s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[99.985s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[99.985s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[99.985s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[99.985s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[99.986s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[99.986s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[99.986s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[99.986s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[99.986s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[99.986s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[99.986s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml

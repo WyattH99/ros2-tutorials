@@ -1,0 +1,41 @@
+[0.619s] Invoking command in '/home/wyatt/ros2_ws/src/py_pubsub': PYTHONPATH=/home/wyatt/ros2_ws/build/py_pubsub/prefix_override:/home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/wyatt/ros2_ws/build/py_pubsub/build install --record /home/wyatt/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[0.822s] running egg_info
+[0.822s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.823s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.823s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.823s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.823s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.823s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.823s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.824s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.825s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.825s] running build
+[0.825s] running build_py
+[0.825s] creating /home/wyatt/ros2_ws/build/py_pubsub/build
+[0.825s] creating /home/wyatt/ros2_ws/build/py_pubsub/build/lib
+[0.825s] creating /home/wyatt/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.825s] copying py_pubsub/subscriber_member_function.py -> /home/wyatt/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.825s] copying py_pubsub/__init__.py -> /home/wyatt/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.826s] copying py_pubsub/publisher_member_function.py -> /home/wyatt/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.826s] running install
+[0.826s] running install_lib
+[0.826s] creating /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.826s] copying /home/wyatt/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.827s] copying /home/wyatt/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.827s] copying /home/wyatt/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.827s] byte-compiling /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.827s] byte-compiling /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[0.828s] byte-compiling /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.828s] running install_data
+[0.828s] creating /home/wyatt/ros2_ws/install/py_pubsub/share/ament_index
+[0.828s] creating /home/wyatt/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[0.829s] creating /home/wyatt/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.829s] copying resource/py_pubsub -> /home/wyatt/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.829s] copying package.xml -> /home/wyatt/ros2_ws/install/py_pubsub/share/py_pubsub
+[0.829s] running install_egg_info
+[0.830s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.830s] running install_scripts
+[0.845s] Installing listener script to /home/wyatt/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.845s] Installing talker script to /home/wyatt/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.846s] writing list of installed files to '/home/wyatt/ros2_ws/build/py_pubsub/install.log'
+[0.861s] Invoked command in '/home/wyatt/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/wyatt/ros2_ws/build/py_pubsub/prefix_override:/home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/wyatt/ros2_ws/build/py_pubsub/build install --record /home/wyatt/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed

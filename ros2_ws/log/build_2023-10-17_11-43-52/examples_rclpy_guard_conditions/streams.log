@@ -1,0 +1,24 @@
+[4.581s] Invoking command in '/home/wyatt/ros2_ws/build/examples_rclpy_guard_conditions': PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wyatt/ros2_ws/build/examples_rclpy_guard_conditions/build --no-deps install_data
+[5.008s] running develop
+[5.439s] running egg_info
+[5.452s] creating examples_rclpy_guard_conditions.egg-info
+[5.453s] writing examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[5.453s] writing dependency_links to examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[5.453s] writing entry points to examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[5.453s] writing requirements to examples_rclpy_guard_conditions.egg-info/requires.txt
+[5.454s] writing top-level names to examples_rclpy_guard_conditions.egg-info/top_level.txt
+[5.454s] writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[5.454s] reading manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[5.454s] writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[5.456s] running build_ext
+[5.457s] Creating /home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+[5.458s] Installing trigger_guard_condition script to /home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[5.458s] 
+[5.458s] Installed /home/wyatt/ros2_ws/build/examples_rclpy_guard_conditions
+[5.459s] running install_data
+[5.459s] creating /home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index
+[5.459s] creating /home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index
+[5.459s] creating /home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[5.460s] copying resource/examples_rclpy_guard_conditions -> /home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[5.460s] copying package.xml -> /home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[5.674s] Invoked command in '/home/wyatt/ros2_ws/build/examples_rclpy_guard_conditions' returned '0': PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wyatt/ros2_ws/build/examples_rclpy_guard_conditions/build --no-deps install_data

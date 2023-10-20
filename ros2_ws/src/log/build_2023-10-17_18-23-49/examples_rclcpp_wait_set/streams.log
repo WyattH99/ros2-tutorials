@@ -1,0 +1,86 @@
+[0.092s] Invoking command in '/home/wyatt/ros2_ws/src/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/wyatt/ros2_ws/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set
+[2.392s] -- The C compiler identification is GNU 11.4.0
+[2.393s] -- The CXX compiler identification is GNU 11.4.0
+[2.393s] -- Detecting C compiler ABI info
+[2.393s] -- Detecting C compiler ABI info - done
+[2.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.393s] -- Detecting C compile features
+[2.393s] -- Detecting C compile features - done
+[2.393s] -- Detecting CXX compiler ABI info
+[2.393s] -- Detecting CXX compiler ABI info - done
+[2.393s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.393s] -- Detecting CXX compile features
+[2.393s] -- Detecting CXX compile features - done
+[2.394s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.394s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.394s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.394s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.394s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.394s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.394s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.394s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.394s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[2.394s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.394s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.394s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.395s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.395s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.395s] -- Looking for pthread.h
+[2.395s] -- Looking for pthread.h - found
+[2.395s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.395s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.395s] -- Found Threads: TRUE  
+[2.504s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.929s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.269s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.301s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.302s] -- Configured cppcheck include dirs: /home/wyatt/ros2_ws/src/examples/rclcpp/wait_set/include
+[3.303s] -- Configured cppcheck exclude dirs and/or files: 
+[3.305s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.305s] -- Configured cpplint exclude dirs and/or files: 
+[3.307s] -- Added test 'lint_cmake' to check CMake code style
+[3.334s] -- Added test 'uncrustify' to check C / C++ code style
+[3.334s] -- Configured uncrustify additional arguments: 
+[3.336s] -- Added test 'xmllint' to check XML markup files
+[3.339s] -- Configuring done
+[3.669s] -- Generating done
+[3.704s] -- Build files have been written to: /home/wyatt/ros2_ws/src/build/examples_rclcpp_wait_set
+[3.750s] Invoked command in '/home/wyatt/ros2_ws/src/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/wyatt/ros2_ws/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set
+[3.767s] Invoking command in '/home/wyatt/ros2_ws/src/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/wyatt/ros2_ws/src/build/examples_rclcpp_wait_set -- -j12 -l12
+[98.233s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[98.234s] compilation terminated.
+[98.234s] gmake[2]: *** [CMakeFiles/wait_set_topics_and_timer.dir/build.make:76: CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o] Error 1
+[98.234s] gmake[1]: *** [CMakeFiles/Makefile2:341: CMakeFiles/wait_set_topics_and_timer.dir/all] Error 2
+[98.234s] gmake[1]: *** Waiting for unfinished jobs....
+[98.234s] [  4%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[98.235s] [  8%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[98.235s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[98.235s] [ 16%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[98.235s] [ 20%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[98.235s] [ 25%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[98.235s] [ 29%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[98.235s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[98.235s] [ 37%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[98.235s] [ 45%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[98.235s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[98.235s] [ 50%] [32m[1mLinking CXX executable wait_set_talker[0m
+[98.236s] [ 50%] Built target wait_set_talker
+[98.236s] [ 54%] [32m[1mLinking CXX executable wait_set_listener[0m
+[98.236s] [ 54%] Built target wait_set_listener
+[98.625s] [ 58%] [32m[1mLinking CXX shared library libtalker.so[0m
+[99.295s] [ 58%] Built target talker
+[107.062s] [ 62%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[107.657s] [ 66%] [32m[1mLinking CXX executable static_wait_set[0m
+[107.845s] [ 70%] [32m[1mLinking CXX executable executor_random_order[0m
+[107.955s] [ 70%] Built target wait_set_topics_with_different_rates
+[108.073s] [ 75%] [32m[1mLinking CXX executable wait_set[0m
+[108.283s] [ 79%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[108.597s] [ 79%] Built target static_wait_set
+[108.701s] [ 79%] Built target executor_random_order
+[108.916s] [ 83%] [32m[1mLinking CXX shared library liblistener.so[0m
+[108.935s] [ 87%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[109.001s] [ 87%] Built target wait_set
+[109.028s] [ 87%] Built target wait_set_random_order
+[109.357s] [ 87%] Built target listener
+[109.407s] [ 87%] Built target thread_safe_wait_set
+[109.413s] gmake: *** [Makefile:146: all] Error 2

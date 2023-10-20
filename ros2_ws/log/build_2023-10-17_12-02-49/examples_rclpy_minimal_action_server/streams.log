@@ -1,0 +1,50 @@
+[3.157s] Invoking command in '/home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server': PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[3.397s] running develop
+[3.549s] Removing /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples-rclpy-minimal-action-server.egg-link (link to .)
+[3.582s] Invoked command in '/home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server' returned '0': PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[3.584s] Invoking command in '/home/wyatt/ros2_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
+[3.803s] running egg_info
+[3.804s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[3.804s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[3.804s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[3.804s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[3.804s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[3.807s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[3.808s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[3.808s] running build
+[3.808s] running build_py
+[3.809s] creating /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[3.809s] creating /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib
+[3.809s] creating /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.809s] copying examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.809s] copying examples_rclpy_minimal_action_server/server_not_composable.py -> /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.810s] copying examples_rclpy_minimal_action_server/server.py -> /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.810s] copying examples_rclpy_minimal_action_server/server_single_goal.py -> /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.810s] copying examples_rclpy_minimal_action_server/__init__.py -> /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.810s] copying examples_rclpy_minimal_action_server/server_defer.py -> /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[3.810s] running install
+[3.811s] running install_lib
+[3.811s] creating /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[3.811s] copying /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[3.812s] copying /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_not_composable.py -> /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[3.812s] copying /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server.py -> /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[3.812s] copying /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_single_goal.py -> /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[3.812s] copying /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/__init__.py -> /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[3.812s] copying /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_defer.py -> /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[3.813s] byte-compiling /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_queue_goals.py to server_queue_goals.cpython-310.pyc
+[3.813s] byte-compiling /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_not_composable.py to server_not_composable.cpython-310.pyc
+[3.814s] byte-compiling /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server.py to server.cpython-310.pyc
+[3.814s] byte-compiling /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_single_goal.py to server_single_goal.cpython-310.pyc
+[3.815s] byte-compiling /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/__init__.py to __init__.cpython-310.pyc
+[3.815s] byte-compiling /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_defer.py to server_defer.cpython-310.pyc
+[3.816s] running install_data
+[3.816s] running install_egg_info
+[3.818s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.1-py3.10.egg-info
+[3.819s] running install_scripts
+[3.836s] Installing server script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.836s] Installing server_defer script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.836s] Installing server_not_composable script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.836s] Installing server_queue_goals script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.837s] Installing server_single_goal script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.837s] writing list of installed files to '/home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/install.log'
+[3.985s] Invoked command in '/home/wyatt/ros2_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed

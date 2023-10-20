@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000083] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000103] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000121] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000135] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000158] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000185] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000226] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000279] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000292] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000307] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000332] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000347] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000387] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000400] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000446] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000459] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000474] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000489] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000514] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000565] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000610] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000623] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000637] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000652] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000681] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000723] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000739] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099428] (-) TimerEvent: {}
+[0.199634] (-) TimerEvent: {}
+[0.299840] (-) TimerEvent: {}
+[0.400041] (-) TimerEvent: {}
+[0.500260] (-) TimerEvent: {}
+[0.600479] (-) TimerEvent: {}
+[0.618619] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/wyatt/ros2_ws/build/py_pubsub/build', 'install', '--record', '/home/wyatt/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/wyatt/ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wyatt', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wyatt/ros2_ws/install/turtlesim/lib:/home/wyatt/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/wyatt', 'OLDPWD': '/home/wyatt/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2279', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/wyatt/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'wyatt', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wyatt', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wyatt-Desktop:@/tmp/.ICE-unix/2260,unix/wyatt-Desktop:/tmp/.ICE-unix/2260', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4d37c5d8_0765_41a0_955a_f996dd4b0bc7', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.125', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wyatt/ros2_ws/install/turtlesim:/home/wyatt/ros2_ws/install/my_package:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/home/wyatt/ros2_ws/install/examples_rclcpp_wait_set:/home/wyatt/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_timer:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_service:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_composition:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_client:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclcpp_cbg_executor:/home/wyatt/ros2_ws/install/examples_rclcpp_async_client:/home/wyatt/ros2_ws/install/cpp_pubsub:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wyatt/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wyatt/ros2_ws/build/py_pubsub/prefix_override:/home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/wyatt/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/wyatt/ros2_ws/install/turtlesim:/home/wyatt/ros2_ws/install/examples_rclcpp_wait_set:/home/wyatt/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_timer:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_service:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_composition:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_client:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclcpp_cbg_executor:/home/wyatt/ros2_ws/install/examples_rclcpp_async_client:/home/wyatt/ros2_ws/install/cpp_pubsub'}, 'shell': False}
+[0.700589] (-) TimerEvent: {}
+[0.800812] (-) TimerEvent: {}
+[0.822798] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[0.823207] (py_pubsub) StdoutLine: {'line': b'creating ../../build/py_pubsub/py_pubsub.egg-info\n'}
+[0.823380] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[0.823541] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[0.823759] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[0.823928] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[0.823987] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[0.824037] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.825046] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.825506] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.825616] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[0.825713] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[0.825884] (py_pubsub) StdoutLine: {'line': b'creating /home/wyatt/ros2_ws/build/py_pubsub/build\n'}
+[0.826027] (py_pubsub) StdoutLine: {'line': b'creating /home/wyatt/ros2_ws/build/py_pubsub/build/lib\n'}
+[0.826082] (py_pubsub) StdoutLine: {'line': b'creating /home/wyatt/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.826145] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/wyatt/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.826193] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/wyatt/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.826280] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /home/wyatt/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.826328] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[0.826499] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[0.827023] (py_pubsub) StdoutLine: {'line': b'creating /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.827115] (py_pubsub) StdoutLine: {'line': b'copying /home/wyatt/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.827284] (py_pubsub) StdoutLine: {'line': b'copying /home/wyatt/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.827368] (py_pubsub) StdoutLine: {'line': b'copying /home/wyatt/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.827810] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[0.828209] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc\n'}
+[0.828365] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[0.828662] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[0.829001] (py_pubsub) StdoutLine: {'line': b'creating /home/wyatt/ros2_ws/install/py_pubsub/share/ament_index\n'}
+[0.829104] (py_pubsub) StdoutLine: {'line': b'creating /home/wyatt/ros2_ws/install/py_pubsub/share/ament_index/resource_index\n'}
+[0.829191] (py_pubsub) StdoutLine: {'line': b'creating /home/wyatt/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.829351] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/wyatt/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.829409] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/wyatt/ros2_ws/install/py_pubsub/share/py_pubsub\n'}
+[0.829456] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.830583] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[0.831167] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[0.845874] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/wyatt/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[0.846091] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/wyatt/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[0.846262] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/wyatt/ros2_ws/build/py_pubsub/install.log'\n"}
+[0.861758] (py_pubsub) CommandEnded: {'returncode': 0}
+[0.901118] (-) TimerEvent: {}
+[0.902930] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[0.903478] (-) EventReactorShutdown: {}

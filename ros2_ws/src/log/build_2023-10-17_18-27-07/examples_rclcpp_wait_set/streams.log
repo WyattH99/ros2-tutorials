@@ -1,0 +1,71 @@
+[0.099s] Invoking command in '/home/wyatt/ros2_ws/src/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/wyatt/ros2_ws/src/build/examples_rclcpp_wait_set -- -j12 -l12
+[0.192s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.192s] [  8%] Built target talker
+[0.194s] [35m[1mConsolidate compiler generated dependencies of target wait_set_topics_with_different_rates[0m
+[0.220s] [ 16%] Built target wait_set_topics_with_different_rates
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target executor_random_order[0m
+[0.258s] [ 25%] Built target executor_random_order
+[0.265s] [35m[1mConsolidate compiler generated dependencies of target wait_set_random_order[0m
+[0.282s] [ 33%] Built target wait_set_random_order
+[0.302s] [ 37%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[9.300s] [ 41%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[9.821s] [ 41%] Built target wait_set_topics_and_timer
+[9.835s] [35m[1mConsolidate compiler generated dependencies of target static_wait_set[0m
+[9.835s] [35m[1mConsolidate compiler generated dependencies of target thread_safe_wait_set[0m
+[9.835s] [35m[1mConsolidate compiler generated dependencies of target wait_set[0m
+[9.836s] [35m[1mConsolidate compiler generated dependencies of target wait_set_listener[0m
+[9.859s] [ 66%] Built target static_wait_set
+[9.859s] [ 66%] Built target thread_safe_wait_set
+[9.859s] [ 66%] Built target wait_set
+[9.859s] [ 75%] Built target wait_set_listener
+[9.874s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[9.875s] [35m[1mConsolidate compiler generated dependencies of target wait_set_talker[0m
+[9.898s] [ 87%] Built target listener
+[9.898s] [ 91%] Built target wait_set_talker
+[9.921s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[13.086s] [100%] [32m[1mLinking CXX executable wait_set_composed[0m
+[13.495s] [100%] Built target wait_set_composed
+[13.520s] Invoked command in '/home/wyatt/ros2_ws/src/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/wyatt/ros2_ws/src/build/examples_rclcpp_wait_set -- -j12 -l12
+[14.041s] Invoking command in '/home/wyatt/ros2_ws/src/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/wyatt/ros2_ws/src/build/examples_rclcpp_wait_set
+[14.061s] -- Install configuration: ""
+[14.061s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[14.063s] -- Set runtime path of "/home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker" to ""
+[14.063s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[14.064s] -- Set runtime path of "/home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener" to ""
+[14.064s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/libtalker.so
+[14.066s] -- Set runtime path of "/home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/libtalker.so" to ""
+[14.066s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/liblistener.so
+[14.076s] -- Set runtime path of "/home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/liblistener.so" to ""
+[14.076s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[14.082s] -- Set runtime path of "/home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set" to ""
+[14.082s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[14.087s] -- Set runtime path of "/home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set" to ""
+[14.087s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[14.093s] -- Set runtime path of "/home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set" to ""
+[14.093s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[14.098s] -- Set runtime path of "/home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer" to ""
+[14.099s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[14.109s] -- Set runtime path of "/home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order" to ""
+[14.109s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[14.114s] -- Set runtime path of "/home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order" to ""
+[14.114s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[14.119s] -- Set runtime path of "/home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates" to ""
+[14.119s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[14.120s] -- Set runtime path of "/home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed" to ""
+[14.120s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[14.129s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[14.133s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[14.133s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[14.141s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[14.141s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[14.141s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[14.141s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[14.142s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[14.142s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[14.142s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[14.143s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[14.143s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[14.143s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[14.143s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[14.144s] -- Installing: /home/wyatt/ros2_ws/src/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[14.152s] Invoked command in '/home/wyatt/ros2_ws/src/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/wyatt/ros2_ws/src/build/examples_rclcpp_wait_set

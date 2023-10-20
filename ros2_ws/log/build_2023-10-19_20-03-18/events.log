@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000198] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000225] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000252] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000321] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000338] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000374] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000389] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000438] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000453] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000469] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000503] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000521] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000536] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000553] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000601] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000617] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000664] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000678] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000698] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000718] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000742] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000759] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000799] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000814] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000861] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000875] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000909] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000928] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/wyatt/ros2_ws/install/tutorial_interfaces')])}
+[0.000968] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.059804] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.060805] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.060840] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wyatt/ros2_ws/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/home/wyatt/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wyatt'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wyatt/ros2_ws/install/tutorial_interfaces/lib:/home/wyatt/ros2_ws/install/turtlesim/lib:/home/wyatt/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wyatt'), ('OLDPWD', '/home/wyatt/ros2_ws/src/cpp_pubsub'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2279'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/wyatt/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wyatt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wyatt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wyatt-Desktop:@/tmp/.ICE-unix/2260,unix/wyatt-Desktop:/tmp/.ICE-unix/2260'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ff7ef9dc_bfa3_433e_a6c9_eef1171420d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wyatt/ros2_ws/install/tutorial_interfaces:/home/wyatt/ros2_ws/install/turtlesim:/home/wyatt/ros2_ws/install/py_pubsub:/home/wyatt/ros2_ws/install/my_package:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/home/wyatt/ros2_ws/install/examples_rclcpp_wait_set:/home/wyatt/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_timer:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_service:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_composition:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_client:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclcpp_cbg_executor:/home/wyatt/ros2_ws/install/examples_rclcpp_async_client:/home/wyatt/ros2_ws/install/cpp_srvcli:/home/wyatt/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wyatt/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wyatt/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/wyatt/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wyatt/ros2_ws/install/tutorial_interfaces:/home/wyatt/ros2_ws/install/turtlesim:/home/wyatt/ros2_ws/install/examples_rclcpp_wait_set:/home/wyatt/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_timer:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_service:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_composition:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_client:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclcpp_cbg_executor:/home/wyatt/ros2_ws/install/examples_rclcpp_async_client:/home/wyatt/ros2_ws/install/cpp_srvcli:/home/wyatt/ros2_ws/install/cpp_pubsub:/home/wyatt/ros2_ws/install/py_pubsub:/home/wyatt/ros2_ws/install/my_package:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[0.082640] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099499] (-) TimerEvent: {}
+[0.199709] (-) TimerEvent: {}
+[0.208851] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.233508] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.235536] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.240526] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.250688] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.264549] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299796] (-) TimerEvent: {}
+[0.314822] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.316632] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399919] (-) TimerEvent: {}
+[0.423092] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500063] (-) TimerEvent: {}
+[0.561524] (cpp_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/wyatt/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[0.600077] (-) TimerEvent: {}
+[0.666468] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700161] (-) TimerEvent: {}
+[0.725648] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.725875] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.725950] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.726196] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.726897] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.726973] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.727164] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.727842] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.740560] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.742426] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/wyatt/ros2_ws/build/cpp_pubsub\n'}
+[0.765304] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.765430] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.780499] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.780633] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.800252] (-) TimerEvent: {}
+[0.900497] (-) TimerEvent: {}
+[1.000743] (-) TimerEvent: {}
+[1.100993] (-) TimerEvent: {}
+[1.201246] (-) TimerEvent: {}
+[1.301492] (-) TimerEvent: {}
+[1.401741] (-) TimerEvent: {}
+[1.501984] (-) TimerEvent: {}
+[1.602234] (-) TimerEvent: {}
+[1.702482] (-) TimerEvent: {}
+[1.802730] (-) TimerEvent: {}
+[1.902984] (-) TimerEvent: {}
+[2.003237] (-) TimerEvent: {}
+[2.103482] (-) TimerEvent: {}
+[2.203733] (-) TimerEvent: {}
+[2.303983] (-) TimerEvent: {}
+[2.404306] (-) TimerEvent: {}
+[2.504562] (-) TimerEvent: {}
+[2.604805] (-) TimerEvent: {}
+[2.705057] (-) TimerEvent: {}
+[2.805307] (-) TimerEvent: {}
+[2.905552] (-) TimerEvent: {}
+[3.005792] (-) TimerEvent: {}
+[3.106037] (-) TimerEvent: {}
+[3.206290] (-) TimerEvent: {}
+[3.306542] (-) TimerEvent: {}
+[3.406826] (-) TimerEvent: {}
+[3.507067] (-) TimerEvent: {}
+[3.607315] (-) TimerEvent: {}
+[3.707575] (-) TimerEvent: {}
+[3.807792] (-) TimerEvent: {}
+[3.908043] (-) TimerEvent: {}
+[4.008385] (-) TimerEvent: {}
+[4.108638] (-) TimerEvent: {}
+[4.109590] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[4.208753] (-) TimerEvent: {}
+[4.264279] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[4.308870] (-) TimerEvent: {}
+[4.409118] (-) TimerEvent: {}
+[4.509371] (-) TimerEvent: {}
+[4.609632] (-) TimerEvent: {}
+[4.709870] (-) TimerEvent: {}
+[4.810113] (-) TimerEvent: {}
+[4.910353] (-) TimerEvent: {}
+[5.010592] (-) TimerEvent: {}
+[5.110834] (-) TimerEvent: {}
+[5.211042] (-) TimerEvent: {}
+[5.311281] (-) TimerEvent: {}
+[5.411519] (-) TimerEvent: {}
+[5.511770] (-) TimerEvent: {}
+[5.612008] (-) TimerEvent: {}
+[5.712232] (-) TimerEvent: {}
+[5.812469] (-) TimerEvent: {}
+[5.912708] (-) TimerEvent: {}
+[6.012947] (-) TimerEvent: {}
+[6.113187] (-) TimerEvent: {}
+[6.213426] (-) TimerEvent: {}
+[6.313670] (-) TimerEvent: {}
+[6.413888] (-) TimerEvent: {}
+[6.514128] (-) TimerEvent: {}
+[6.614349] (-) TimerEvent: {}
+[6.714605] (-) TimerEvent: {}
+[6.814862] (-) TimerEvent: {}
+[6.915128] (-) TimerEvent: {}
+[6.990580] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[7.015225] (-) TimerEvent: {}
+[7.115511] (-) TimerEvent: {}
+[7.215823] (-) TimerEvent: {}
+[7.277572] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[7.286588] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.311471] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[7.315914] (-) TimerEvent: {}
+[7.319123] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wyatt/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/wyatt/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wyatt'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wyatt/ros2_ws/install/tutorial_interfaces/lib:/home/wyatt/ros2_ws/install/turtlesim/lib:/home/wyatt/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wyatt'), ('OLDPWD', '/home/wyatt/ros2_ws/src/cpp_pubsub'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2279'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/wyatt/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wyatt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wyatt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wyatt-Desktop:@/tmp/.ICE-unix/2260,unix/wyatt-Desktop:/tmp/.ICE-unix/2260'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ff7ef9dc_bfa3_433e_a6c9_eef1171420d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wyatt/ros2_ws/install/tutorial_interfaces:/home/wyatt/ros2_ws/install/turtlesim:/home/wyatt/ros2_ws/install/py_pubsub:/home/wyatt/ros2_ws/install/my_package:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/home/wyatt/ros2_ws/install/examples_rclcpp_wait_set:/home/wyatt/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_timer:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_service:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_composition:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_client:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclcpp_cbg_executor:/home/wyatt/ros2_ws/install/examples_rclcpp_async_client:/home/wyatt/ros2_ws/install/cpp_srvcli:/home/wyatt/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wyatt/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wyatt/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/wyatt/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/wyatt/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wyatt/ros2_ws/install/tutorial_interfaces:/home/wyatt/ros2_ws/install/turtlesim:/home/wyatt/ros2_ws/install/examples_rclcpp_wait_set:/home/wyatt/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_timer:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_service:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_composition:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_client:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclcpp_cbg_executor:/home/wyatt/ros2_ws/install/examples_rclcpp_async_client:/home/wyatt/ros2_ws/install/cpp_srvcli:/home/wyatt/ros2_ws/install/cpp_pubsub:/home/wyatt/ros2_ws/install/py_pubsub:/home/wyatt/ros2_ws/install/my_package:/home/wyatt/ros2_ws/install/launch_testing_examples:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_service:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_client:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_server:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client:/home/wyatt/ros2_ws/install/examples_rclpy_guard_conditions:/home/wyatt/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[7.325413] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.325630] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wyatt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[7.326913] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/wyatt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[7.327072] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wyatt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[7.330437] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/wyatt/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[7.330585] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wyatt/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[7.330661] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wyatt/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[7.330795] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[7.330958] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wyatt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[7.331065] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[7.331118] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wyatt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[7.331180] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[7.331227] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[7.331286] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[7.331356] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wyatt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[7.331403] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wyatt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[7.331448] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[7.331495] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[7.331541] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/wyatt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[7.331587] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wyatt/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[7.332936] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.416136] (-) TimerEvent: {}
+[7.457063] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[7.457595] (-) EventReactorShutdown: {}

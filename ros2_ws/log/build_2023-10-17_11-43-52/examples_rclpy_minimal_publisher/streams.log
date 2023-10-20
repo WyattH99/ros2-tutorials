@@ -1,0 +1,26 @@
+[3.968s] Invoking command in '/home/wyatt/ros2_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wyatt/ros2_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data
+[4.952s] running develop
+[4.953s] running egg_info
+[4.953s] creating examples_rclpy_minimal_publisher.egg-info
+[4.953s] writing examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[4.953s] writing dependency_links to examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[4.953s] writing entry points to examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[4.954s] writing requirements to examples_rclpy_minimal_publisher.egg-info/requires.txt
+[4.954s] writing top-level names to examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[4.955s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.955s] reading manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.955s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.955s] running build_ext
+[4.956s] Creating /home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[4.956s] Installing publisher_local_function script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.956s] Installing publisher_member_function script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.956s] Installing publisher_old_school script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.956s] 
+[4.957s] Installed /home/wyatt/ros2_ws/build/examples_rclpy_minimal_publisher
+[4.957s] running install_data
+[4.957s] creating /home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index
+[4.957s] creating /home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index
+[4.957s] creating /home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[4.957s] copying resource/examples_rclpy_minimal_publisher -> /home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[4.958s] copying package.xml -> /home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[5.765s] Invoked command in '/home/wyatt/ros2_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/wyatt/ros2_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data

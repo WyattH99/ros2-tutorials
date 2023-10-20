@@ -1,0 +1,16 @@
+[01m[K/home/wyatt/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/wyatt/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:30:52:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   30 |         std::shared_ptr<rclcpp::Node> node = rclcpp[01;31m[K:[m[KNode::make_shared("add_two_ints_server");
+      |                                                    [01;31m[K^[m[K
+      |                                                    [32m[K::[m[K
+[01m[K/home/wyatt/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/wyatt/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:36:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kspin_until_future_comlete[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kspin_until_future_complete[m[K’?
+   36 |         if (rclcpp::[01;31m[Kspin_until_future_comlete[m[K(node, result) ==
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                     [32m[Kspin_until_future_complete[m[K
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

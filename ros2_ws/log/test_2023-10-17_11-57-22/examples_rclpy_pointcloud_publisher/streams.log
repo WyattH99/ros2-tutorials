@@ -1,0 +1,22 @@
+[1.923s] Invoking command in '/home/wyatt/ros2_ws/src/examples/rclpy/topics/pointcloud_publisher': AMENT_PREFIX_PATH=/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/wyatt/ros2_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml --junit-prefix=examples_rclpy_pointcloud_publisher -o cache_dir=/home/wyatt/ros2_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.161s] [1m============================= test session starts ==============================[0m
+[2.161s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[2.164s] cachedir: /home/wyatt/ros2_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache
+[2.165s] rootdir: /home/wyatt/ros2_ws/src/examples/rclpy, configfile: pytest.ini
+[2.165s] plugins: ament-lint-0.12.8, launch-testing-1.0.4, ament-copyright-0.12.8, ament-pep257-0.12.8, launch-testing-ros-0.19.6, ament-flake8-0.12.8, ament-xmllint-0.12.8, colcon-core-0.15.0, cov-3.0.0
+[2.219s] [1mcollecting ... [0m[1m
+[2.219s] collected 3 items                                                              [0m
+[2.219s] 
+[2.359s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[2.441s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[2.459s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[2.460s] 
+[2.460s] [33m=============================== warnings summary ===============================[0m
+[2.460s] topics/pointcloud_publisher/test/test_flake8.py::test_flake8
+[2.460s] topics/pointcloud_publisher/test/test_flake8.py::test_flake8
+[2.460s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[2.460s] 
+[2.460s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[2.460s] - generated xml file: /home/wyatt/ros2_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml -
+[2.460s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.30s[0m[33m =========================[0m
+[2.511s] Invoked command in '/home/wyatt/ros2_ws/src/examples/rclpy/topics/pointcloud_publisher' returned '0': AMENT_PREFIX_PATH=/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/wyatt/ros2_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml --junit-prefix=examples_rclpy_pointcloud_publisher -o cache_dir=/home/wyatt/ros2_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/wyatt/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

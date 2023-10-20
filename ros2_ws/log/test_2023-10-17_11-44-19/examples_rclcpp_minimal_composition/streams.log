@@ -1,0 +1,135 @@
+[0.331s] Invoking command in '/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition': AMENT_PREFIX_PATH=/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_composition:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_composition LD_LIBRARY_PATH=/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_composition/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.335s] UpdateCTestConfiguration  from :/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.336s] Parse Config file:/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.336s]    Site: wyatt-Desktop
+[0.336s]    Build name: (empty)
+[0.336s]  Add coverage exclude regular expressions.
+[0.336s] Create new tag: 20231017-1644 - Experimental
+[0.336s] UpdateCTestConfiguration  from :/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.336s] Parse Config file:/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.336s] Test project /home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition
+[0.336s] Constructing a list of tests
+[0.336s] Done constructing a list of tests
+[0.337s] Updating test list for fixtures
+[0.337s] Added 0 tests to meet fixture requirements
+[0.337s] Checking test dependency graph...
+[0.337s] Checking test dependency graph end
+[0.337s] test 1
+[0.337s]     Start 1: copyright
+[0.337s] 
+[0.337s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml"
+[0.337s] 1: Test timeout computed to be: 200
+[0.398s] 1: -- run_test.py: invoking following command in '/home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition':
+[0.398s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml
+[0.878s] 1: No problems found, checked 8 files
+[0.897s] 1: -- run_test.py: return code 0
+[0.897s] 1: -- run_test.py: verify result file '/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml'
+[0.912s] 1/6 Test #1: copyright ........................   Passed    0.59 sec
+[0.912s] test 2
+[0.912s]     Start 2: cppcheck
+[0.912s] 
+[0.912s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml" "--include_dirs" "/home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include"
+[0.913s] 2: Test timeout computed to be: 300
+[0.989s] 2: -- run_test.py: invoking following command in '/home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition':
+[0.989s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml --include_dirs /home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include
+[1.096s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[1.119s] 2: -- run_test.py: return code 0
+[1.119s] 2: -- run_test.py: verify result file '/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml'
+[1.132s] 2/6 Test #2: cppcheck .........................   Passed    0.22 sec
+[1.132s] test 3
+[1.132s]     Start 3: cpplint
+[1.132s] 
+[1.132s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml"
+[1.132s] 3: Test timeout computed to be: 120
+[1.204s] 3: -- run_test.py: invoking following command in '/home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition':
+[1.204s] 3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml
+[1.473s] 3: Using '--root=/home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include' argument
+[1.473s] 3: 
+[1.473s] 3: Done processing /home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/publisher_node.hpp
+[1.473s] 3: 
+[1.474s] 3: Done processing /home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/subscriber_node.hpp
+[1.474s] 3: 
+[1.474s] 3: Done processing /home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/visibility.h
+[1.474s] 3: 
+[1.474s] 3: Using '--root=/home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition/src' argument
+[1.474s] 3: 
+[1.474s] 3: Done processing /home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition/src/composed.cpp
+[1.474s] 3: 
+[1.474s] 3: Done processing /home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition/src/publisher_node.cpp
+[1.474s] 3: 
+[1.475s] 3: Done processing /home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition/src/standalone_publisher.cpp
+[1.475s] 3: 
+[1.475s] 3: Done processing /home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition/src/standalone_subscriber.cpp
+[1.475s] 3: 
+[1.475s] 3: Done processing /home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition/src/subscriber_node.cpp
+[1.475s] 3: 
+[1.475s] 3: No problems found
+[1.496s] 3: -- run_test.py: return code 0
+[1.496s] 3: -- run_test.py: verify result file '/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml'
+[1.512s] 3/6 Test #3: cpplint ..........................   Passed    0.38 sec
+[1.513s] test 4
+[1.513s]     Start 4: lint_cmake
+[1.513s] 
+[1.513s] 4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml"
+[1.513s] 4: Test timeout computed to be: 60
+[1.591s] 4: -- run_test.py: invoking following command in '/home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition':
+[1.591s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml
+[1.676s] 4: 
+[1.676s] 4: No problems found
+[1.694s] 4: -- run_test.py: return code 0
+[1.694s] 4: -- run_test.py: verify result file '/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml'
+[1.707s] 4/6 Test #4: lint_cmake .......................   Passed    0.19 sec
+[1.707s] test 5
+[1.708s]     Start 5: uncrustify
+[1.708s] 
+[1.709s] 5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml"
+[1.709s] 5: Test timeout computed to be: 60
+[1.778s] 5: -- run_test.py: invoking following command in '/home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition':
+[1.778s] 5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml
+[1.843s] 5: No code style divergence in file 'include/minimal_composition/publisher_node.hpp'
+[1.843s] 5: 
+[1.843s] 5: No code style divergence in file 'include/minimal_composition/subscriber_node.hpp'
+[1.844s] 5: 
+[1.844s] 5: No code style divergence in file 'include/minimal_composition/visibility.h'
+[1.844s] 5: 
+[1.844s] 5: No code style divergence in file 'src/composed.cpp'
+[1.844s] 5: 
+[1.844s] 5: No code style divergence in file 'src/publisher_node.cpp'
+[1.844s] 5: 
+[1.844s] 5: No code style divergence in file 'src/standalone_publisher.cpp'
+[1.844s] 5: 
+[1.844s] 5: No code style divergence in file 'src/standalone_subscriber.cpp'
+[1.845s] 5: 
+[1.845s] 5: No code style divergence in file 'src/subscriber_node.cpp'
+[1.845s] 5: 
+[1.845s] 5: No problems found
+[1.854s] 5: -- run_test.py: return code 0
+[1.854s] 5: -- run_test.py: verify result file '/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml'
+[1.866s] 5/6 Test #5: uncrustify .......................   Passed    0.16 sec
+[1.866s] test 6
+[1.866s]     Start 6: xmllint
+[1.866s] 
+[1.866s] 6: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml"
+[1.866s] 6: Test timeout computed to be: 60
+[1.954s] 6: -- run_test.py: invoking following command in '/home/wyatt/ros2_ws/src/examples/rclcpp/composition/minimal_composition':
+[1.954s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml
+[2.179s] 6: File 'package.xml' is valid
+[2.179s] 6: 
+[2.179s] 6: No problems found
+[2.190s] 6: -- run_test.py: return code 0
+[2.190s] 6: -- run_test.py: verify result file '/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml'
+[2.196s] 6/6 Test #6: xmllint ..........................   Passed    0.33 sec
+[2.196s] 
+[2.196s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[2.197s] 
+[2.197s] Label Time Summary:
+[2.197s] copyright     =   0.59 sec*proc (1 test)
+[2.197s] cppcheck      =   0.22 sec*proc (1 test)
+[2.197s] cpplint       =   0.38 sec*proc (1 test)
+[2.197s] lint_cmake    =   0.19 sec*proc (1 test)
+[2.197s] linter        =   1.87 sec*proc (6 tests)
+[2.197s] uncrustify    =   0.16 sec*proc (1 test)
+[2.198s] xmllint       =   0.33 sec*proc (1 test)
+[2.198s] 
+[2.198s] Total Test time (real) =   1.87 sec
+[2.560s] Invoked command in '/home/wyatt/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': AMENT_PREFIX_PATH=/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_composition:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_composition LD_LIBRARY_PATH=/home/wyatt/ros2_ws/install/examples_rclcpp_minimal_composition/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

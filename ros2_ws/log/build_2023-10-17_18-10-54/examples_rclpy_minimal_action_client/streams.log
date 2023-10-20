@@ -1,0 +1,24 @@
+[4.216s] Invoking command in '/home/wyatt/ros2_ws/src/examples/rclpy/actions/minimal_action_client': PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_client/build install --record /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed
+[4.607s] running egg_info
+[4.608s] writing ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[4.609s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[4.609s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[4.610s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/requires.txt
+[4.610s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[4.611s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[4.613s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[4.613s] running build
+[4.613s] running build_py
+[4.614s] running install
+[4.615s] running install_lib
+[4.617s] running install_data
+[4.618s] running install_egg_info
+[4.621s] removing '/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.15.1-py3.10.egg-info' (and everything under it)
+[4.622s] Copying ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.15.1-py3.10.egg-info
+[4.623s] running install_scripts
+[4.649s] Installing client script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.649s] Installing client_asyncio script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.649s] Installing client_cancel script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.649s] Installing client_not_composable script to /home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.650s] writing list of installed files to '/home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_client/install.log'
+[4.757s] Invoked command in '/home/wyatt/ros2_ws/src/examples/rclpy/actions/minimal_action_client' returned '0': PYTHONPATH=/home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/home/wyatt/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_client/build install --record /home/wyatt/ros2_ws/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed
